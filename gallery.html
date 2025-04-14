@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cilo Raz - Photographe Professionnel</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#home">
+                <img src="images/logo.png" width="50px">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html##home">Accueil</a></li>
+                <li><a href="index.html#about">À propos</a></li>
+                <li><a href="#gallery">Galeries</a></li>
+                <li><a href="index.html#testimonials">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section / Slider -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1>Je suis Cilo Raz<br>photographe</h1>
+                            <p>Capturant des moments uniques depuis 2015</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="images/accueil.jpeg" alt="Photographie de mariage">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1>Photographie<br>d'événements</h1>
+                            <p>Mariages, cérémonies et moments spéciaux</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="images/accueil.jpeg" alt="Photographie d'événement">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1>Portraits<br>professionnels</h1>
+                            <p>Pour particuliers et entreprises</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="images/accueil.jpeg" alt="Portrait professionnel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-arrow prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="slider-arrow next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galleries</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery_1.jpeg">
+                </div>
+                <div class="gallery-item tall">
+                    <img src="images/gallery_3.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery_2.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/t_1.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/t_2.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/t_3.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery_2.jpeg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery_1.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2 class="contact-title">Contactez-moi !</h2>
+            <div class="contact-form">
+                <input type="email" placeholder="Envoyé un e-mail" class="email-input">
+                <button type="submit" class="submit-btn">Envoyé</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100066777286526" class="facebook-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="tel:+261346193822" class="whatsapp-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
